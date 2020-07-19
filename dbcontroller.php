@@ -1,9 +1,16 @@
 <?php
 class DBController {
-	private $host = "localhost";
+	/*private $host = "localhost";
 	private $user = "root";
 	private $password = "";
 	private $database = "shopping_cart";
+	private $conn;*/
+	
+	//remote database
+	private $host = "localhost";
+	private $user = "id14375167_phpdemoshrey";
+	private $password = "@Lumos0123456789";
+	private $database = "id14375167_trainingproject";
 	private $conn;
 	
 	function __construct() {
