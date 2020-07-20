@@ -67,7 +67,7 @@
                     <ul class="nav navbar-nav navbar-right">
                         
                         <?php
-                            session_start();
+                            // session
                             if(isset($_SESSION['name']))
                             {
                         ?><li><a><span>
